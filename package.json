@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "staging": "node --env-file=.env.staging src/app.js",
-  "preprod": "node --env-file=.env.preprod src/app.js",
-  "prod": "node --env-file=.env.prod src/app.js"
+  "start:staging": "node --env-file=.env.staging src/app.js",
+  "start:preprod": "node --env-file=.env.preprod src/app.js",
+  "start:prod": "node --env-file=.env.prod src/app.js"
   },
   "keywords": [],
   "author": "",
